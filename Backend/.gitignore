@@ -1,0 +1,13 @@
+## .NET / ASP.NET backend
+bin/
+obj/
+*.user
+.vs/
+
+## Local SQLite database + EF artifacts
+*.db
+*.db-shm
+*.db-wal
+
+## Secrets
+appsettings.*.local.json
